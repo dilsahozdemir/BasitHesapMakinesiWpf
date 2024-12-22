@@ -1,0 +1,39 @@
+﻿<Window x:Class="BasitHesapMakinesiWpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BasitHesapMakinesiWpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="285">
+    <Grid Margin="0,0,113,0" RenderTransformOrigin="0.506,0.576">
+        <StackPanel Margin="0,0,-113,-78" Background="#FF1D141D">
+           
+            <TextBox x:Name="TextBoxEkran" Height="148" FontSize="20" Margin="10" HorizontalAlignment="Center" Width="232" Background="#FFF1ECEC"/>
+            <StackPanel Orientation="Horizontal" Width="249">
+                <Button Content="1" Width="50" Height="50" Margin="5" Click="SayilarButonu_Click"/>
+                <Button Content="2" Width="50" Height="50" Margin="5" Click="SayilarButonu_Click"/>
+                <Button Content="3" Width="50" Height="50" Margin="5" Click="SayilarButonu_Click"/>
+                <Button Content="/" Width="50" Height="50" Margin="5" Click="IslemButonu_Click"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Content="4" Width="50" Height="50" Margin="5" Click="SayilarButonu_Click"/>
+                <Button Content="5" Width="50" Height="50" Margin="5" Click="SayilarButonu_Click"/>
+                <Button Content="6" Width="50" Height="50" Margin="5" Click="SayilarButonu_Click"/>
+                <Button Content="*" Width="50" Height="50" Margin="5" Click="IslemButonu_Click"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Content="7" Width="50" Height="50" Margin="5" Click="SayilarButonu_Click"/>
+                <Button Content="8" Width="50" Height="50" Margin="5" Click="SayilarButonu_Click"/>
+                <Button Content="9" Width="50" Height="50" Margin="5" Click="SayilarButonu_Click"/>
+                <Button Content="-" Width="50" Height="50" Margin="5" Click="IslemButonu_Click"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Content="0" Width="50" Height="50" Margin="5" Click="SayilarButonu_Click"/>
+                <Button Content="C" Width="50" Height="50" Margin="5" Click="TemizleButonu_Click"/>
+                <Button Content="=" Width="50" Height="50" Margin="5" Click="SonucButonu_Click"/>
+                <Button Content="+" Width="50" Height="50" Margin="5" Click="IslemButonu_Click"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
